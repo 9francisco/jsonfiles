@@ -1,0 +1,1314 @@
+{
+  "intents": [{
+    "name": "projects/airporttest-tmfujt/agent/intents/066a151c-bd47-4f19-a072-74cc63c88aa8",
+    "displayName": "BHX Fast Food and Burgers",
+    "priority": 500000,
+    "messages": [{
+      "card": {
+        "title": "Burger King",
+        "subtitle": "Fast food outlet offering burgers and fries to eat in or take away",
+        "imageUri": "https://scontent.fdub4-1.fna.fbcdn.net/v/t1.0-9/24232207_1960005194012807_4862645938544942745_n.jpg?_nc_cat\u003d1\u0026_nc_oc\u003dAQkO5A89vzN6FqM5osRenxEwmZBueJn31wFMqj26SgJbq9UzdHuFIKWHZ-vr3KzwSY0\u0026_nc_ht\u003dscontent.fdub4-1.fna\u0026oh\u003dd75c5fbb531ac56e83dbda14f7e36379\u0026oe\u003d5DF2EDF6",
+        "buttons": [{
+          "text": "More info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/burger-king/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Frankie \u0026 Benny\u0027s",
+        "subtitle": "Frankie’s is the family\u0027s favourite 50\u0027s and 60\u0027s American diner - the perfect spot to meet friends prior to going through Security.",
+        "imageUri": "https://wl3-cdn.landsec.com/sites/default/files/styles/shop_logo/public/images/shops/logos/logo_520_.jpg",
+        "buttons": [{
+          "text": "More info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/frankie-bennys/"
+        }, {
+          "text": "Menu",
+          "postback": "https://www.birminghamairport.co.uk/media/5368/26574-fb-main-menu-generic_500x386-3-19_final_print_online.pdf"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "All Bar One",
+        "subtitle": "Take a moment to unwind at our All Bar One bars and restaurants",
+        "imageUri": "https://scontent.fdub4-1.fna.fbcdn.net/v/t31.0-8/12916903_10156837664595473_2918112386134914826_o.png?_nc_cat\u003d104\u0026_nc_oc\u003dAQkpBQ8DPZPO_Nrn4Q21qLFMb760PUnZpmOQbQBfZCUIvKbvimKOIky6mOBlqphMuQI\u0026_nc_ht\u003dscontent.fdub4-1.fna\u0026oh\u003d8e82b41289ff259f8f9b91f7b2e2d726\u0026oe\u003d5E2E41A8",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/all-bar-one/"
+        }, {
+          "text": "Menu",
+          "postback": "https://www.birminghamairport.co.uk/media/5546/main-menu-abo-landside.pdf"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Factory Bar and Kitchen",
+        "subtitle": "Offering extensive food and beverage menus",
+        "imageUri": "https://www.birminghamairport.co.uk/media/4588/logo.png",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/factory-bar-and-kitchen/"
+        }, {
+          "text": "Menu",
+          "postback": "https://www.birminghamairport.co.uk/media/4585/009464-factory-main-menu-290x314mm.pdf"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "quickReplies": {
+        "title": "open google",
+        "quickReplies": ["https://google.com"]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "text": {
+        "text": ["There are several available fast food and burger options including Burger King, Frankie \u0026 Benny\u0027s, All Bar One and Factory Bar and Kitchen.", "We\u0027ve some great fast food and burger options. Look out for Burger King, Frankie \u0026 Benny\u0027s, All Bar One and Factory Bar and Kitchen."]
+      }
+    }],
+    "defaultResponsePlatforms": ["ACTIONS_ON_GOOGLE"]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/14c28e9c-e29d-454c-acf0-b76b6423e7c5",
+    "displayName": "Call Support",
+    "priority": 500000,
+    "messages": [{
+      "card": {
+        "title": "Support",
+        "subtitle": "Please call our support team",
+        "buttons": [{
+          "text": "Call",
+          "postback": "tel://0434000111"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "text": {
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/1696eed9-8919-4ed4-96ca-2401ac393ea9",
+    "displayName": "BHX Sandwiches and Wraps",
+    "priority": 500000,
+    "messages": [{
+      "card": {
+        "title": "M\u0026S Food to Go",
+        "subtitle": "The M\u0026S Food to Go offers a broad selection of all-day food and drink products",
+        "imageUri": "https://www.birminghamairport.co.uk/media/5311/m-and-s_food_logo_black.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/ms-food-to-go/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Wrapchic",
+        "subtitle": "Eat in or take away authentic Indian ‘Grab \u0026 Go’ cuisine",
+        "imageUri": "https://www.birminghamairport.co.uk/media/4612/wrapchic-logo-125x96.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/wrapchic/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Caffe Nero",
+        "subtitle": "Enjoy fine Italian coffee, delicious cakes, soups and sandwiches in a warm and relaxing atmosphere",
+        "imageUri": "https://www.birminghamairport.co.uk/media/1087/caffe_nero2-resized-logo.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/caffe-nero/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Costa",
+        "subtitle": "Drink in or take away, Costa offers a wide range of coffees, teas, cold drinks and snacks",
+        "imageUri": "https://www.birminghamairport.co.uk/media/1033/costalogo.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/costa/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Pret a Manger",
+        "subtitle": "Handmade, natural food to eat in or take away",
+        "imageUri": "https://www.birminghamairport.co.uk/media/1151/pret_resized2.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/pret-a-manger/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Caffe Ritazza",
+        "subtitle": "Enjoy a drink, sandwich or snack before Security",
+        "imageUri": "https://www.birminghamairport.co.uk/media/2048/ritazza-logo-copy.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/caffe-ritazza/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "text": {
+        "text": ["There are several options open to you. Try one of the following; M\u0026S Food to Go, Wrapchic, Caffe Nero, Costa, Pret a Manger and Caffe Ritazza", "M\u0026S Food to Go, Wrapchic, Caffe Nero, Costa, Pret a Manger and Caffe Ritazza all have a great selection of sandwiches and wraps"]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/193e665a-b7b1-400a-bcbf-0e3a4cc06ee2",
+    "displayName": "Baby milk",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["You can carry milk powder in your hand luggage (there are no limits for powder formula). Also you can carry ready-to-drink cartons of formula and self-prepared milk in your hand luggage as well as carry baby food in your hand luggage. All baby food and drinks will be subject to testing, which will not require the container to be opened but must pass to be allowed past the security check point."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/1daa9ae5-e581-4476-9cf0-1ef0789ac75b",
+    "displayName": "bts.register.departing-flight - custom",
+    "priority": 500000,
+    "inputContextNames": ["projects/airporttest-tmfujt/agent/sessions/-/contexts/btsregisterdeparting-flight-followup"],
+    "action": "btsregisterdeparting-flight.registerdeparting-flight-custom",
+    "parameters": [{
+      "name": "fba61ac7-f9ba-47ab-92df-06d6437208bd",
+      "displayName": "con-flight-type",
+      "value": "DEPARTURE"
+    }, {
+      "name": "9cbde0b5-f932-4316-810e-c0a90adaaa6b",
+      "displayName": "bts-location-code",
+      "value": "#btsregisterdeparting-flight-followup.bts-location-code",
+      "entityTypeDisplayName": "@bts-location-code",
+      "mandatory": true,
+      "prompts": ["What is the flights destination?"]
+    }, {
+      "name": "61d0f3df-fe72-43e9-8d13-f98702ea7a18",
+      "displayName": "bts-operator-code",
+      "value": "#btsregisterdeparting-flight-followup.bts-operator-code",
+      "entityTypeDisplayName": "@bts-operator-code",
+      "mandatory": true,
+      "prompts": ["Which airline is operating the flight?"]
+    }, {
+      "name": "9f1cdbf6-c20f-4795-8e56-14249b9c63e9",
+      "displayName": "date-time",
+      "value": "#btsregisterdeparting-flight-followup.date-time",
+      "entityTypeDisplayName": "@sys.date-time",
+      "mandatory": true,
+      "prompts": ["What is the departure day and time?"]
+    }, {
+      "name": "9a05142e-7dc2-4491-9a89-40d7e5268665",
+      "displayName": "time-period",
+      "value": "time-period",
+      "defaultValue": "#btsregisterdeparting-flight-followup.time-period",
+      "entityTypeDisplayName": "@sys.time-period"
+    }, {
+      "name": "3aecc508-ca2e-45b2-85f7-4179299194c5",
+      "displayName": "date",
+      "value": "date",
+      "defaultValue": "#btsregisterdeparting-flight-followup.date",
+      "entityTypeDisplayName": "@sys.date"
+    }],
+    "messages": [{
+      "text": {
+      }
+    }],
+    "rootFollowupIntentName": "projects/airporttest-tmfujt/agent/intents/633afccb-69a4-4952-8b1a-8ddc0ce83cd7",
+    "parentFollowupIntentName": "projects/airporttest-tmfujt/agent/intents/633afccb-69a4-4952-8b1a-8ddc0ce83cd7"
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/1de2c226-0b77-4be4-a383-dfc3146a7814",
+    "displayName": "Check in information",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["You are advised to check in as early as possible. As a general guide, you should aim to arrive:UK Flight - 90 minutes before scheduled departure and for European flights - 2 hours before scheduled departure"]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/1f31ddaa-b36d-4c6a-8484-1fddc95d20d0",
+    "displayName": "ATMs",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["There are two ATMs located in the main concourse beside Costa Coffee, both of which dispense Bank of England Sterling notes.We also have one ATM in the departures lounge that dispenses Sterling, Euro and Dollars."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/232cb39c-fd26-472d-bcb7-26978eea728e",
+    "displayName": "Car parking prices",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["Enjoy great value, secure on-site airport parking at Airport. For the best prices book online. www..."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/266aa098-3d6c-4760-a238-82d79210f6a1",
+    "displayName": "WiFi",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["The airport offers FREE WiFi throughout the terminal building. The WiFi is unlimited but will require passengers to sign in again should they be connected for more than 4 hours."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/2d7f108d-a5c5-4982-9dd6-a2ddc7c1e1fc",
+    "displayName": "Default Fallback Intent",
+    "priority": 500000,
+    "isFallback": true,
+    "action": "input.unknown",
+    "messages": [{
+      "card": {
+        "title": "Sample Card (Viber)",
+        "subtitle": "Unable to help"
+      },
+      "platform": "VIBER"
+    }, {
+      "payload": {
+        "data": [{
+          "platform": "VIBER",
+          "lang": "el",
+          "text": {
+            "text": ["EL - Sorry, I didn\u0027t get that. Can you rephrase?"]
+          }
+        }, {
+          "lang": "el",
+          "card": {
+            "title": "EL - Sample Card (Viber)"
+          },
+          "platform": "VIBER"
+        }]
+      },
+      "platform": "VIBER"
+    }, {
+      "text": {
+        "text": ["I didn\u0027t get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn\u0027t get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn\u0027t get that. Can you repeat?", "I missed that, say that again?"]
+      }
+    }],
+    "defaultResponsePlatforms": ["VIBER"]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/31774b99-dff8-41a5-b165-766de97666de",
+    "displayName": "Self service check in",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["Most airlines offer self-service check-in kiosks where you can print your boarding card, then take your baggage to the bag-drop facility. Airline staff will be on hand in these areas if you need assistance."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/365d5bef-069c-43dc-982b-5c2c28ab349f",
+    "displayName": "BHX Directions to the airport",
+    "priority": 500000,
+    "messages": [{
+      "card": {
+        "title": "Find us",
+        "imageUri": "https://www.google.co.uk/maps/dir//Birmingham+Airport,+B26+3QJ/@52.4506348,-1.8067594,12z"
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "text": {
+        "text": ["Click on the link and lets see if Google can help you: https://www.google.co.uk/maps/dir//Birmingham+Airport,+B26+3QJ/@52.4506348,-1.8067594,12z"]
+      }
+    }],
+    "defaultResponsePlatforms": ["FACEBOOK"]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/3df5022f-4a18-4656-bc89-e98c8d22132f",
+    "displayName": "Currency exchange",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["Travelex is situated in our main concourse, beside our PRM desks and disable seating area, offering a variety of foreign currency at a great exchange rate."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/42f9744f-f3ae-473b-86f5-73d12b5cf30b",
+    "displayName": "BHX Vegetarian food options",
+    "priority": 500000,
+    "messages": [{
+      "card": {
+        "title": "Burger King",
+        "subtitle": "Fast food outlet offering burgers and fries to eat in or take away",
+        "imageUri": "https://www.birminghamairport.co.uk/media/1038/burgerking_logo.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/burger-king/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Frankie \u0026 Benny\u0027s",
+        "subtitle": "Frankie’s is the family\u0027s favourite 50\u0027s and 60\u0027s American diner - the perfect spot to meet friends prior to going through Security.",
+        "imageUri": "https://www.birminghamairport.co.uk/media/1095/frankie-logo.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/frankie-bennys/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Wetherspoon",
+        "subtitle": "Wetherspoon’s family friendly pub offers something for everyone; breakfast, a light bite or just a drink with friends.",
+        "imageUri": "https://www.birminghamairport.co.uk/media/3506/wetherspoons-logo-resized-031116.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/wetherspoon/"
+        }, {
+          "text": "VEGETARIAN AND VEGAN MENU",
+          "postback": "https://www.birminghamairport.co.uk/media/5390/vegetarian-and-vegan-april-2019.pdf"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "text": {
+        "text": ["We have some great vegetarian food options. Burger King, Frankie \u0026 Benny\u0027s or Wetherspoon should all be able to help you.", "Burger King, Frankie \u0026 Benny\u0027s and Wetherspoon all have some great vegetarian food options"]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/45d8442b-5436-4e65-8763-d88386a3f4e8",
+    "displayName": "Car hire",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["We have a number of car hire partners available in our main concourse. Car rental partners include Avis, Budget, Europcar, Hertz and National."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/499583c8-11a8-423a-97d7-81e4903f70c2",
+    "displayName": "bts.register.arriving-flight",
+    "priority": 500000,
+    "webhookState": "WEBHOOK_STATE_ENABLED",
+    "inputContextNames": ["projects/airporttest-tmfujt/agent/sessions/-/contexts/testing"],
+    "outputContexts": [{
+      "name": "projects/airporttest-tmfujt/agent/sessions/-/contexts/btsregisterarriving-flight-followup",
+      "lifespanCount": 2
+    }, {
+      "name": "projects/airporttest-tmfujt/agent/sessions/-/contexts/testing",
+      "lifespanCount": 5
+    }],
+    "parameters": [{
+      "name": "4fa784dc-8551-4b10-8bbe-49eaf64095d6",
+      "displayName": "con-flight-type",
+      "value": "ARRIVAL"
+    }, {
+      "name": "e3cebf6e-1219-4fb7-a0b9-8d235f577da4",
+      "displayName": "bts-arriving-words",
+      "value": "$bts-arriving-words",
+      "entityTypeDisplayName": "@bts-arriving-words"
+    }, {
+      "name": "de6d1b07-a269-4a38-9acd-43825bd68fec",
+      "displayName": "bts-base-location-code",
+      "value": "$bts-base-location-code",
+      "entityTypeDisplayName": "@bts-base-location-code"
+    }, {
+      "name": "301a605b-5daa-4254-9467-76df6aaebcbf",
+      "displayName": "bts-location-code",
+      "value": "$bts-location-code",
+      "entityTypeDisplayName": "@bts-location-code"
+    }, {
+      "name": "d793ecca-ec54-4c1d-8ca3-b517fd3e4d7f",
+      "displayName": "bts-operator-code",
+      "value": "$bts-operator-code",
+      "entityTypeDisplayName": "@bts-operator-code"
+    }, {
+      "name": "8f62955c-f516-4020-b920-f8c18fd7644f",
+      "displayName": "number",
+      "value": "$number",
+      "entityTypeDisplayName": "@sys.number"
+    }, {
+      "name": "d49e746e-4fba-450e-b24d-1b6f72008dd6",
+      "displayName": "time-period",
+      "value": "$time-period",
+      "entityTypeDisplayName": "@sys.time-period"
+    }, {
+      "name": "61cc1936-099a-4bd8-aea4-dab923fc7428",
+      "displayName": "date",
+      "value": "$date",
+      "entityTypeDisplayName": "@sys.date"
+    }, {
+      "name": "194976bd-099c-4a51-917f-bfa1c11eda1f",
+      "displayName": "date-time",
+      "value": "$date-time",
+      "entityTypeDisplayName": "@sys.date-time"
+    }],
+    "messages": [{
+      "text": {
+        "text": ["Sorry we couldn\u0027t find a suitable flight. Can you provide some more detail so we can identify your flight, tell us your airline or where the flight is coming from."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/5d89b607-640f-4da1-a113-30b4cce555a4",
+    "displayName": "BHX Kids food",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["test response"]
+      },
+      "platform": "VIBER"
+    }, {
+      "quickReplies": {
+        "title": "test",
+        "quickReplies": ["http://google.com"]
+      },
+      "platform": "VIBER"
+    }, {
+      "card": {
+        "title": "Giraffe",
+        "subtitle": "An award winning family restaurant",
+        "imageUri": "https://www.birminghamairport.co.uk/media/1851/website-logo-04-08.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/giraffe/"
+        }, {
+          "text": "Children\u0027s Menu",
+          "postback": "https://www.birminghamairport.co.uk/media/4837/kids.pdf"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Frankie \u0026 Benny\u0027s",
+        "subtitle": "Frankie’s is the family\u0027s favourite 50\u0027s and 60\u0027s American diner - the perfect spot to meet friends prior to going through Security",
+        "imageUri": "https://www.birminghamairport.co.uk/media/1095/frankie-logo.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/frankie-bennys/"
+        }, {
+          "text": "Children\u0027s Menu",
+          "postback": "https://www.birminghamairport.co.uk/media/5372/fb-kids-main-menu-a4-0319_print-online.pdf"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Burger King",
+        "subtitle": "Fast food outlet offering burgers and fries to eat in or take away",
+        "imageUri": "https://www.birminghamairport.co.uk/media/1038/burgerking_logo.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/burger-king/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "All Bar One",
+        "subtitle": "Take a moment to unwind at our All Bar One bars and restaurants",
+        "imageUri": "https://www.birminghamairport.co.uk/media/1026/allbarone_logo.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/all-bar-one/"
+        }, {
+          "text": "Children\u0027s Menu",
+          "postback": "https://www.birminghamairport.co.uk/media/5545/kids-menu-abo-landside.pdf"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Factory Bar and Kitchen",
+        "subtitle": "Offering extensive food and beverage menus",
+        "imageUri": "https://www.birminghamairport.co.uk/media/4588/logo.png",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/factory-bar-and-kitchen/"
+        }, {
+          "text": "Children\u0027s Menu",
+          "postback": "https://www.birminghamairport.co.uk/media/4586/009465-factory-childrens-menu-a4.pdf"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Wetherspoon",
+        "subtitle": "Wetherspoon’s family friendly pub offers something for everyone; breakfast, a light bite or just a drink with friends.",
+        "imageUri": "https://www.birminghamairport.co.uk/media/3506/wetherspoons-logo-resized-031116.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/wetherspoon/"
+        }, {
+          "text": "Children\u0027s Menu",
+          "postback": "https://www.birminghamairport.co.uk/media/5386/kids-menu-april-2019.pdf"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "text": {
+        "text": ["We\u0027ve several options for kids food; Giraffe, Frankie \u0026 Benny\u0027s, Burger King, All Bar One, Factory Bar and Kitchen and Weatherspoon all have kids options"]
+      }
+    }],
+    "defaultResponsePlatforms": ["VIBER"]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/5dc5182c-786d-41c0-9a74-11a5be1d8300",
+    "displayName": "Car park height restriction",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["There are no height restrictions in our long term car parks. The max height in our short term car parks is 2.1m(T2 Multi-storey), 1.85m (Terminal 1 A, B and C)"]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/633afccb-69a4-4952-8b1a-8ddc0ce83cd7",
+    "displayName": "bts.register.departing-flight",
+    "priority": 500000,
+    "webhookState": "WEBHOOK_STATE_ENABLED",
+    "inputContextNames": ["projects/airporttest-tmfujt/agent/sessions/-/contexts/testing"],
+    "outputContexts": [{
+      "name": "projects/airporttest-tmfujt/agent/sessions/-/contexts/btsregisterdeparting-flight-followup",
+      "lifespanCount": 2
+    }, {
+      "name": "projects/airporttest-tmfujt/agent/sessions/-/contexts/testing",
+      "lifespanCount": 5
+    }],
+    "parameters": [{
+      "name": "3020db86-83b6-49c0-8411-1fe047563147",
+      "displayName": "con-flight-type",
+      "value": "DEPARTURE"
+    }, {
+      "name": "26879fa8-f6d1-486c-91bc-014b1aeca87e",
+      "displayName": "bts-departing-words",
+      "value": "$bts-departing-words",
+      "entityTypeDisplayName": "@bts-departing-words"
+    }, {
+      "name": "2ba8c062-cb7c-4d06-b280-26603c17d1b5",
+      "displayName": "bts-base-location-code",
+      "value": "$bts-base-location-code",
+      "entityTypeDisplayName": "@bts-base-location-code"
+    }, {
+      "name": "2c1583ab-5400-4317-a102-84ed77df1c1e",
+      "displayName": "bts-location-code",
+      "value": "$bts-location-code",
+      "entityTypeDisplayName": "@bts-location-code"
+    }, {
+      "name": "db77ba56-af78-4e3f-af2e-20b792578b93",
+      "displayName": "bts-operator-code",
+      "value": "$bts-operator-code",
+      "entityTypeDisplayName": "@bts-operator-code"
+    }, {
+      "name": "7a997636-6253-41d6-8a33-da6f79020bab",
+      "displayName": "number",
+      "value": "$number",
+      "entityTypeDisplayName": "@sys.number"
+    }, {
+      "name": "218db610-e9ab-483d-9d2a-f57f199d923d",
+      "displayName": "time-period",
+      "value": "$time-period",
+      "entityTypeDisplayName": "@sys.time-period"
+    }, {
+      "name": "33d0d1f2-3679-46a4-8d6b-e834fc757a85",
+      "displayName": "date",
+      "value": "$date",
+      "entityTypeDisplayName": "@sys.date"
+    }, {
+      "name": "3e7b2145-b38f-4d91-830b-985dfbc6a067",
+      "displayName": "date-time",
+      "value": "$date-time",
+      "entityTypeDisplayName": "@sys.date-time"
+    }],
+    "messages": [{
+      "text": {
+        "text": ["Sorry we couldn\u0027t find a suitable flight. Can you provide some more detail so we can identify your flight, tell us your airline or your destination."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/75c1f420-8739-4387-8f4a-827e5b745f34",
+    "displayName": "PBTest",
+    "priority": 500000,
+    "parameters": [{
+      "name": "f6b6c806-429a-411f-82db-353381fcaeb5",
+      "displayName": "airline-code",
+      "value": "$airline-code",
+      "entityTypeDisplayName": "@airline-code"
+    }, {
+      "name": "aa3997e1-31a3-4788-a38f-964b37fa1670",
+      "displayName": "airport-code",
+      "value": "$airport-code",
+      "entityTypeDisplayName": "@airport-code"
+    }],
+    "messages": [{
+      "text": {
+        "text": ["response"]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/768e231a-03ef-4e5a-a99b-c793b9cbae10",
+    "displayName": "BHX Food and drink / bars",
+    "priority": 500000,
+    "messages": [{
+      "card": {
+        "title": "All Bar One",
+        "subtitle": "Take a moment to unwind at our All Bar One bars and restaurants",
+        "imageUri": "https://www.birminghamairport.co.uk/media/1026/allbarone_logo.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/all-bar-one/"
+        }, {
+          "text": "Menu",
+          "postback": "https://www.birminghamairport.co.uk/media/5546/main-menu-abo-landside.pdf"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Weatherspoons",
+        "subtitle": "Wetherspoon’s family friendly pub offers something for everyone; breakfast, a light bite or just a drink with friends.",
+        "imageUri": "https://www.birminghamairport.co.uk/media/3506/wetherspoons-logo-resized-031116.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/wetherspoon/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Frankie \u0026 Benny\u0027s",
+        "subtitle": "Frankie’s is the family\u0027s favourite 50\u0027s and 60\u0027s American diner - the perfect spot to meet friends prior to going through Security.",
+        "imageUri": "https://www.birminghamairport.co.uk/media/1095/frankie-logo.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/frankie-bennys/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "quickReplies": {
+        "title": "Other options",
+        "quickReplies": ["Fast food", "Bars", "Quick bites"]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "text": {
+        "text": ["I\u0027d suggest All Bar One, Weatherspoon\u0027s or Frankie \u0026 Benny\u0027s", "You could try All Bar One, Weatherspoon\u0027s or Frankie \u0026 Benny\u0027s", "All Bar One, Weatherspoon\u0027s or Frankie \u0026 Benny\u0027s would be my suggestion", "All Bar One, Weatherspoon\u0027s or Frankie \u0026 Benny\u0027s would all suit you"]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/7a451ab6-74c8-4bb4-963e-79b0ca1fc523",
+    "displayName": "Do I need to book parking",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["You can still use the car park facilities even if you have not pre-booked online. Normal daily and weekly rates will apply."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/7dfe7a91-8562-431e-a182-8a8c978097cf",
+    "displayName": "Car wont start",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["There is a complimentary 24hr vehicle assistance service that operates in the car parks at the Airport. Please contact +123456789 for more assistance."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/8cf50e18-4f13-41a9-a07a-34755d414457",
+    "displayName": "Special assistance",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["Most public transport operators have arrangements for passengers with special needs and there are blue badge spaces and extra help on hand in our Airport car parks if you\u0027re arriving at the Airport by car."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/8d2c0e3e-b9ca-4148-aa39-23ef0ea9676a",
+    "displayName": "Price of parking",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["Enjoy great value, secure on-site airport parking at the Airport.  For the best prices book online. www...."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/916f4410-37ad-4e5a-9346-a12086659f08",
+    "displayName": "Smoking",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["Smoking is not permitted anywhere inside the terminal building. There are smoking bins provided at the entrance doors to the Airport."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/9eaef2b1-c014-42f4-9650-45477eba581e",
+    "displayName": "BHX Currency Exchange",
+    "priority": 500000,
+    "messages": [{
+      "card": {
+        "title": "ICE - International Currency Exchange",
+        "subtitle": "For over 40 years, ICE has provided millions of international travellers with foreign currency",
+        "imageUri": "https://www.birminghamairport.co.uk/media/2969/international_currency_exchange_logojpg.png",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/shops-at-birmingham-airport/ice/"
+        }, {
+          "text": "Click and collect",
+          "postback": "https://www.iceplc.com/click-and-collect"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "text": {
+        "text": ["We have money exchange available at International Currency Exchange located throughout the airport; before security, after security within the departure lounge and at baggage reclaim"]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/a1960729-924c-4f8c-b108-828e819a0352",
+    "displayName": "NHS Feedback Form",
+    "priority": 500000,
+    "parameters": [{
+      "name": "f1be1faf-bce3-4393-827c-00d6b8abc57a",
+      "displayName": "number",
+      "value": "$number",
+      "entityTypeDisplayName": "@sys.number"
+    }],
+    "messages": [{
+      "text": {
+        "text": ["Thank you for completing our survey."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/a7d156c3-d2d4-4ca1-84f6-97db131bdecc",
+    "displayName": "twitter.flag",
+    "priority": 500000,
+    "outputContexts": [{
+      "name": "projects/airporttest-tmfujt/agent/sessions/-/contexts/twitter",
+      "lifespanCount": 5
+    }],
+    "messages": [{
+      "text": {
+        "text": ["Twitter flag set; how can I help you?"]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/ac0b3c51-b7f0-4fd0-a7eb-fde09307c500",
+    "displayName": "Name",
+    "priority": 500000,
+    "webhookState": "WEBHOOK_STATE_ENABLED_FOR_SLOT_FILLING",
+    "messages": [{
+      "text": {
+        "text": ["My name is Sarah", "I\u0027m Sarah"]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/ad623dc4-2ef7-44b8-a1cb-1bcf897d8b95",
+    "displayName": "BHX Gluten free food",
+    "priority": 500000,
+    "messages": [{
+      "card": {
+        "title": "Frankie \u0026 Benny\u0027s",
+        "subtitle": "Frankie’s is the family\u0027s favourite 50\u0027s and 60\u0027s American diner - the perfect spot to meet friends prior to going through Security.",
+        "imageUri": "https://wl3-cdn.landsec.com/sites/default/files/styles/shop_logo/public/images/shops/logos/logo_520_.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/frankie-bennys/"
+        }, {
+          "text": "Gluten free menu",
+          "postback": "https://www.birminghamairport.co.uk/media/5371/26574-fb-gluten-free_generic_a4_3-19_final_print_online.pdf"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Wetherspoon",
+        "subtitle": "Wetherspoon’s family friendly pub offers something for everyone; breakfast, a light bite or just a drink with friends.",
+        "imageUri": "https://www.birminghamairport.co.uk/media/3506/wetherspoons-logo-resized-031116.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/wetherspoon/"
+        }, {
+          "text": "Gluten free menu",
+          "postback": "https://www.birminghamairport.co.uk/media/5388/gluten-free-april-2019.pdf"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "text": {
+        "text": ["For gluten free food try Frankie \u0026 Benny\u0027s or Weatherspoon\u0027s", "Frankie \u0026 Benny\u0027s and Weatherspoon\u0027s both cater for gluten free"]
+      }
+    }],
+    "defaultResponsePlatforms": ["FACEBOOK"]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/af59bdca-6b64-4335-9c7e-3dd3ce4895fe",
+    "displayName": "bts.register.unknown-type - departing",
+    "priority": 500000,
+    "webhookState": "WEBHOOK_STATE_ENABLED_FOR_SLOT_FILLING",
+    "inputContextNames": ["projects/airporttest-tmfujt/agent/sessions/-/contexts/btsregisterunknown-type-followup"],
+    "action": "btsregisterunknown-type.registerunknown-type-custom",
+    "outputContexts": [{
+      "name": "projects/airporttest-tmfujt/agent/sessions/-/contexts/btsregisterunknown-type-followup",
+      "lifespanCount": 5
+    }],
+    "parameters": [{
+      "name": "a0fddfdb-c979-4351-bf75-29ebc24868e9",
+      "displayName": "con-flight-type",
+      "value": "DEPARTURE"
+    }, {
+      "name": "c70eca4e-9b47-49f7-ae36-c8837ed14173",
+      "displayName": "bts-departing-words",
+      "value": "$bts-departing-words",
+      "entityTypeDisplayName": "@bts-departing-words"
+    }, {
+      "name": "642b4849-a0d5-4eb4-8d68-728d398a88ad",
+      "displayName": "bts-location-code",
+      "value": "$bts-location-code",
+      "defaultValue": "#btsregisterunknown-type-followup.bts-location-code",
+      "entityTypeDisplayName": "@bts-location-code",
+      "mandatory": true,
+      "prompts": ["What is the destination of the flight?"]
+    }, {
+      "name": "6bdbb16e-5bee-4666-959c-7bc103dcbae7",
+      "displayName": "bts-operator-code",
+      "value": "$bts-operator-code",
+      "defaultValue": "#btsregisterunknown-type-followup.bts-operator-code",
+      "entityTypeDisplayName": "@bts-operator-code",
+      "mandatory": true,
+      "prompts": ["Which airline is operating the flight?"]
+    }, {
+      "name": "b6c63779-0dc2-4cb4-a923-f42d1d44c374",
+      "displayName": "date-time",
+      "value": "$date-time",
+      "defaultValue": "#btsregisterunknown-type-followup.date-time",
+      "entityTypeDisplayName": "@sys.date-time",
+      "mandatory": true,
+      "prompts": ["What is the day and time of the flight?"]
+    }, {
+      "name": "513946cd-1d61-4158-9ab9-2c21dc44058d",
+      "displayName": "time-period",
+      "value": "time-period",
+      "defaultValue": "#btsregisterunknown-type-followup.time-period",
+      "entityTypeDisplayName": "@sys.time-period"
+    }, {
+      "name": "b421611f-2a80-4213-abf8-5ddedb133637",
+      "displayName": "date",
+      "value": "date",
+      "defaultValue": "#btsregisterunknown-type-followup.date",
+      "entityTypeDisplayName": "@sys.date"
+    }],
+    "messages": [{
+      "text": {
+        "text": ["Sorry we couldn\u0027t find a suitable flight. To select the flight you are interested, in please the icon next to the flight: https://www.jerseyairport.com/flight/Pages/Departures.aspx"]
+      }
+    }],
+    "rootFollowupIntentName": "projects/airporttest-tmfujt/agent/intents/c020593d-1ea5-44c1-8efb-b08554992890",
+    "parentFollowupIntentName": "projects/airporttest-tmfujt/agent/intents/c020593d-1ea5-44c1-8efb-b08554992890"
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/b6f81c0a-d4f3-46d8-9615-87f35cb306b5",
+    "displayName": "Security information",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["Only limited quantities of liquids may be carried through airport security into the departure lounge. This includes suntan lotion, fragrances, cosmetics and toiletries.The following restrictions apply to all liquids, creams gels, pastes and aerosols taken through security control:Liquids may only be carried in containers holding 100ml or lessThey must be carried separately in a single bag which is:Transparent and resealableNo larger than 20cm x 20cm (8in x 8in)Able to close properly with all the items inside"]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/babfcc78-20c8-49c6-82e0-6592b124d59e",
+    "displayName": "Silence",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+      },
+      "platform": "VIBER"
+    }, {
+      "text": {
+        "text": ["Well thats a shame, I like to talk!"]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/c020593d-1ea5-44c1-8efb-b08554992890",
+    "displayName": "bts.register.unknown-type",
+    "priority": 500000,
+    "webhookState": "WEBHOOK_STATE_ENABLED",
+    "inputContextNames": ["projects/airporttest-tmfujt/agent/sessions/-/contexts/testing"],
+    "outputContexts": [{
+      "name": "projects/airporttest-tmfujt/agent/sessions/-/contexts/btsregisterunknown-type-followup",
+      "lifespanCount": 2
+    }, {
+      "name": "projects/airporttest-tmfujt/agent/sessions/-/contexts/testing",
+      "lifespanCount": 5
+    }],
+    "parameters": [{
+      "name": "aa41ff78-9714-4fb2-81f9-41660ae5c256",
+      "displayName": "con-flight-type",
+      "value": "UNKNOWN"
+    }, {
+      "name": "69288e02-3003-4b99-ad1e-62ab2f11be0f",
+      "displayName": "bts-base-location-code",
+      "value": "$bts-base-location-code",
+      "entityTypeDisplayName": "@bts-base-location-code"
+    }, {
+      "name": "3f27f80d-34c1-4121-829a-22edee8e5d1f",
+      "displayName": "bts-location-code",
+      "value": "$bts-location-code",
+      "entityTypeDisplayName": "@bts-location-code"
+    }, {
+      "name": "2a15d5a7-3fc6-488f-9288-ea8113aec8c1",
+      "displayName": "bts-operator-code",
+      "value": "$bts-operator-code",
+      "entityTypeDisplayName": "@bts-operator-code"
+    }, {
+      "name": "6e8fcfb6-1ae8-41d0-8ca5-84ebdfc7e443",
+      "displayName": "number",
+      "value": "$number",
+      "entityTypeDisplayName": "@sys.number"
+    }, {
+      "name": "36cae721-d069-43eb-87bf-7e20d8f41fa0",
+      "displayName": "date-time",
+      "value": "$date-time",
+      "entityTypeDisplayName": "@sys.date-time"
+    }],
+    "messages": [{
+      "text": {
+        "text": ["Is it an arriving or departing flight you\u0027d like information on?"]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/c4879a30-bb7a-436e-950e-28a08d8b3dad",
+    "displayName": "Water fountains",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["There are no public water stations at the airport however you are able to ask any restaurant or cafe to fill your bottle with tap water."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/c5222f32-ee98-4172-8ee3-068d7e56e111",
+    "displayName": "bts.register.unknown-type - arriving",
+    "priority": 500000,
+    "webhookState": "WEBHOOK_STATE_ENABLED_FOR_SLOT_FILLING",
+    "inputContextNames": ["projects/airporttest-tmfujt/agent/sessions/-/contexts/btsregisterunknown-type-followup"],
+    "action": "btsregisterunknown-type.registerunknown-type-custom",
+    "outputContexts": [{
+      "name": "projects/airporttest-tmfujt/agent/sessions/-/contexts/registerunknown-type-followup",
+      "lifespanCount": 5
+    }],
+    "parameters": [{
+      "name": "f568474c-66cd-4bc3-b547-a41a86670afc",
+      "displayName": "con-flight-type",
+      "value": "ARRIVAL"
+    }, {
+      "name": "99aa5039-ef1a-4868-b5a2-dbf966969bd2",
+      "displayName": "bts-arriving-words",
+      "value": "$bts-arriving-words",
+      "entityTypeDisplayName": "@bts-arriving-words"
+    }, {
+      "name": "2aa2272a-e3f2-4511-9913-9b58c723dcb2",
+      "displayName": "bts-location-code",
+      "value": "$bts-location-code",
+      "defaultValue": "#btsregisterunknown-type-followup.bts-location-code",
+      "entityTypeDisplayName": "@bts-location-code",
+      "mandatory": true,
+      "prompts": ["Where is the flying coming from?"]
+    }, {
+      "name": "b2dbd5d8-b1aa-49f9-ac79-f5626112f609",
+      "displayName": "bts-operator-code",
+      "value": "$bts-operator-code",
+      "defaultValue": "#btsregisterunknown-type-followup.bts-operator-code",
+      "entityTypeDisplayName": "@bts-operator-code",
+      "mandatory": true,
+      "prompts": ["Which airline is operating the flight?"]
+    }, {
+      "name": "e649ef98-3a17-48cc-8641-8e1dee98e6b6",
+      "displayName": "date-time",
+      "value": "$date-time",
+      "defaultValue": "#btsregisterunknown-type-followup.date-time",
+      "entityTypeDisplayName": "@sys.date-time",
+      "mandatory": true,
+      "prompts": ["What is the day and time of the arrival?"]
+    }, {
+      "name": "3f5edf57-56a9-49c5-8d9b-cf0e0cf7214c",
+      "displayName": "time-period",
+      "value": "time-period",
+      "defaultValue": "#btsregisterunknown-type-followup.time-period",
+      "entityTypeDisplayName": "@sys.time-period"
+    }, {
+      "name": "075380b0-64f2-41ee-8389-56f5d625b037",
+      "displayName": "date",
+      "value": "date",
+      "defaultValue": "#btsregisterunknown-type-followup.date",
+      "entityTypeDisplayName": "@sys.date"
+    }],
+    "messages": [{
+      "text": {
+        "text": ["Sorry we couldn\u0027t find a suitable flight. To select the flight you are interested, in please the icon next to the flight: https://www.jerseyairport.com/flight/Pages/Arrivals.aspx"]
+      }
+    }],
+    "rootFollowupIntentName": "projects/airporttest-tmfujt/agent/intents/c020593d-1ea5-44c1-8efb-b08554992890",
+    "parentFollowupIntentName": "projects/airporttest-tmfujt/agent/intents/c020593d-1ea5-44c1-8efb-b08554992890"
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/c74b6fbf-4692-4f75-b0ae-0a636457e907",
+    "displayName": "Information desk",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["Our information desk is situated to the right hand side of the terminal building, just past the arrivals exit doors. If you have any queries regarding your journey through the airport, or require assistance, please visit our info desk. Our Customer Service team can provide information on transport to and from the airport, parking, flight status and more."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/db0e3462-22e8-4590-b13d-126a45507ad6",
+    "displayName": "NLP Flight Registration",
+    "priority": 500000,
+    "webhookState": "WEBHOOK_STATE_ENABLED",
+    "inputContextNames": ["projects/airporttest-tmfujt/agent/sessions/-/contexts/NotInUse"],
+    "action": "flight-type",
+    "outputContexts": [{
+      "name": "projects/airporttest-tmfujt/agent/sessions/-/contexts/NotInUse",
+      "lifespanCount": 5
+    }],
+    "parameters": [{
+      "name": "2ff9486f-e44c-48d0-8ca3-48d27591e61f",
+      "displayName": "time",
+      "value": "$time",
+      "entityTypeDisplayName": "@sys.time"
+    }, {
+      "name": "d7ff6460-4200-40be-81e6-395b8686669f",
+      "displayName": "time-period",
+      "value": "$time-period",
+      "entityTypeDisplayName": "@sys.time-period"
+    }, {
+      "name": "f8e234a6-d351-4cef-a7ff-1c11a0fb9c94",
+      "displayName": "date",
+      "value": "$date",
+      "entityTypeDisplayName": "@sys.date"
+    }, {
+      "name": "09f1fd57-7959-460b-a55a-1d15fd9d4a46",
+      "displayName": "airline-code",
+      "value": "$airline-code",
+      "entityTypeDisplayName": "@airline-code"
+    }, {
+      "name": "32f563ec-7389-4920-8d78-e03ffa135aac",
+      "displayName": "airport-code",
+      "value": "$airport-code",
+      "entityTypeDisplayName": "@airport-code"
+    }, {
+      "name": "789b0535-5bfb-44f4-915f-e0849dfa1723",
+      "displayName": "airpor-code",
+      "value": "$airpor-code",
+      "entityTypeDisplayName": "@airport-code"
+    }, {
+      "name": "b810ae32-d904-4470-8cc5-9448e48b22e7",
+      "displayName": "base-airport-code",
+      "value": "$base-airport-code",
+      "entityTypeDisplayName": "@base-airport-code"
+    }, {
+      "name": "f5d93bca-c1cb-4b00-8514-73bb7b7c2330",
+      "displayName": "flight-number",
+      "value": "$flight-number",
+      "entityTypeDisplayName": "@flight-number"
+    }, {
+      "name": "b9e55264-d358-4a40-bac0-4f0bd776134d",
+      "displayName": "flight-type",
+      "value": "DEPARTURE"
+    }],
+    "messages": [{
+      "text": {
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/dec5b332-579e-4f28-b15c-e800f9f6eeb4",
+    "displayName": "BHX Coffee shops",
+    "priority": 500000,
+    "messages": [{
+      "card": {
+        "title": "Caffe Nero",
+        "subtitle": "Enjoy fine Italian coffee, delicious cakes, soups and sandwiches in a warm and relaxing atmosphere",
+        "imageUri": "https://www.birminghamairport.co.uk/media/1087/caffe_nero2-resized-logo.jpg",
+        "buttons": [{
+          "text": "More info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/caffe-nero/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "Costa",
+        "subtitle": "Drink in or take away, Costa offers a wide range of coffees, teas, cold drinks and snacks",
+        "imageUri": "https://www.birminghamairport.co.uk/media/1033/costalogo.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/costa/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "All Bar One",
+        "subtitle": "Take a moment to unwind at our All Bar One bars and restaurants",
+        "imageUri": "https://www.birminghamairport.co.uk/media/1026/allbarone_logo.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/all-bar-one/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "card": {
+        "title": "M\u0026S Food to Go",
+        "subtitle": "The M\u0026S Food to Go offers a broad selection of all-day food and drink products",
+        "imageUri": "https://www.birminghamairport.co.uk/media/5311/m-and-s_food_logo_black.jpg",
+        "buttons": [{
+          "text": "More Info",
+          "postback": "https://www.birminghamairport.co.uk/at-the-airport/eating-and-drinking/ms-food-to-go/"
+        }]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "text": {
+        "text": ["The following shops all serve great coffee; Caffe Nero, Costa, All Bar One and M\u0026S Food to Go", "For great coffee try Caffe Nero, Costa, All Bar One or M\u0026S Food to Go"]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/ee465e8f-fe73-47ab-af87-88002d4d660b",
+    "displayName": "Car parking restrictions",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["Both our long \u0026 short term car parks accommodate all standard vehicles, SUVs etc..Vehicles are subject to height restrictions in the short-term multi-storey car parks.We do not accommodate large commercial vehicles or vehicles with trailers attached."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/ef4af7e2-92d4-4b1c-9337-35f2c9992506",
+    "displayName": "bts.testing",
+    "priority": 500000,
+    "outputContexts": [{
+      "name": "projects/airporttest-tmfujt/agent/sessions/-/contexts/testing",
+      "lifespanCount": 5
+    }],
+    "messages": [{
+      "text": {
+        "text": ["Testing: How can we help you?"]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/ef8b434f-7c64-4eda-a39b-653b96cb4910",
+    "displayName": "Types of car parks",
+    "priority": 500000,
+    "messages": [{
+      "text": {
+        "text": ["We have a variety of parking choices available to you. Enjoy our award-winning service at a great price in Silver Zone, or upgrade to Long Stay and park closer to the terminal. For the ultimate in speed and convenience there\u0027s the Premier Car Park and Multi-Storey Car Park (just a few minutes walk from check-in), or our Meet and Greet parking service."]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/f213efe4-25b5-48d1-a07f-7aaf8b6b1a16",
+    "displayName": "test.card",
+    "priority": 500000,
+    "inputContextNames": ["projects/airporttest-tmfujt/agent/sessions/-/contexts/testing"],
+    "outputContexts": [{
+      "name": "projects/airporttest-tmfujt/agent/sessions/-/contexts/testing",
+      "lifespanCount": 5
+    }],
+    "messages": [{
+      "card": {
+        "title": "VR Card Test",
+        "subtitle": "VR Card Test Subtitle"
+      },
+      "platform": "VIBER"
+    }, {
+      "text": {
+      }
+    }, {
+      "card": {
+        "title": "FB Card Test",
+        "subtitle": "FB Card Test Subtitle"
+      },
+      "platform": "FACEBOOK"
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/f290b1d7-8a0d-421b-a1a2-cfba3bacb93c",
+    "displayName": "bts.register.arriving-flight - custom",
+    "priority": 500000,
+    "inputContextNames": ["projects/airporttest-tmfujt/agent/sessions/-/contexts/btsregisterarriving-flight-followup"],
+    "action": "btsregisterarriving-flight.registerarriving-flight-custom",
+    "parameters": [{
+      "name": "be9c870a-7bb6-4785-b6a1-244b0a8654b2",
+      "displayName": "con-flight-type",
+      "value": "ARRIVAL"
+    }, {
+      "name": "cebbeff8-8f1d-4299-8ec0-6108ca6cc8e3",
+      "displayName": "bts-location-code",
+      "value": "$bts-location-code",
+      "defaultValue": "#registerarriving-flight-followup.bts-location-code",
+      "entityTypeDisplayName": "@bts-location-code",
+      "mandatory": true,
+      "prompts": ["Where is the flight coming from?"]
+    }, {
+      "name": "185e08ad-0168-4d22-bd8d-332adefef256",
+      "displayName": "bts-operator-code",
+      "value": "$bts-operator-code",
+      "defaultValue": "#btsregisterarriving-flight-followup.bts-operator-code",
+      "entityTypeDisplayName": "@bts-operator-code",
+      "mandatory": true,
+      "prompts": ["Which airline operates the flight?"]
+    }, {
+      "name": "10645170-2279-43e2-a733-f4cdf62b068e",
+      "displayName": "date-time",
+      "value": "$date-time",
+      "defaultValue": "#registerarriving-flight-followup.date-time",
+      "entityTypeDisplayName": "@sys.date-time",
+      "mandatory": true,
+      "prompts": ["What is the arrival day and time of your flight?"]
+    }, {
+      "name": "42e7f65a-9bc7-40c2-a470-afca387329ce",
+      "displayName": "time-period",
+      "value": "$time-period",
+      "defaultValue": "#btsregisterarriving-flight-followup.time-period",
+      "entityTypeDisplayName": "@sys.time-period"
+    }, {
+      "name": "386ec7a6-6a10-4d41-bf23-9f416fbbe1e2",
+      "displayName": "date",
+      "value": "$date",
+      "defaultValue": "#btsregisterarriving-flight-followup.date",
+      "entityTypeDisplayName": "@sys.date"
+    }],
+    "messages": [{
+      "text": {
+      }
+    }],
+    "rootFollowupIntentName": "projects/airporttest-tmfujt/agent/intents/499583c8-11a8-423a-97d7-81e4903f70c2",
+    "parentFollowupIntentName": "projects/airporttest-tmfujt/agent/intents/499583c8-11a8-423a-97d7-81e4903f70c2"
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/f60b8978-a346-4453-86aa-3a65a2aa6439",
+    "displayName": "Default Welcome Intent",
+    "priority": 500000,
+    "events": ["WELCOME"],
+    "action": "input.welcome",
+    "messages": [{
+      "text": {
+        "text": ["Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?"]
+      }
+    }]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/fcff2403-94de-49ad-a854-f431cc4af7da",
+    "displayName": "Web Chat",
+    "priority": 500000,
+    "messages": [{
+      "quickReplies": {
+        "title": "Web Chat QR1",
+        "quickReplies": ["Web Chat QR1"]
+      },
+      "platform": "FACEBOOK"
+    }, {
+      "text": {
+        "text": ["Web Chat default response"]
+      }
+    }],
+    "defaultResponsePlatforms": ["FACEBOOK"]
+  }, {
+    "name": "projects/airporttest-tmfujt/agent/intents/fd753c77-f3ab-49d4-8580-e327b26f34f4",
+    "displayName": "Register for flight information",
+    "priority": 500000,
+    "inputContextNames": ["projects/airporttest-tmfujt/agent/sessions/-/contexts/NotInUse"],
+    "outputContexts": [{
+      "name": "projects/airporttest-tmfujt/agent/sessions/-/contexts/NotInUse",
+      "lifespanCount": 5
+    }],
+    "messages": [{
+      "text": {
+        "text": ["Tell me your flight number and we\u0027ll keep you updated as your flight progresses"]
+      }
+    }]
+  }]
+}
